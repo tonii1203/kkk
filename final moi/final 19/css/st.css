@@ -1,0 +1,72 @@
+/* CSS Document */
+.circle{
+	width: 55px; height: 55px;
+	background: #fff;
+	box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+	border-radius: 50%;
+	text-align: center;
+	line-height: 55px;
+	font-size: 1.2rem;
+	border-style: none
+}
+.ke
+{ 
+	position: absolute; right: 13.5%; top: 10%;
+	width: 2px; height: 75%; 
+	background: #ddd
+}
+@media (max-width:1000px){
+	.ke{ right: 8%;}
+}	
+@media (max-width:600px){
+	.ke{ right:17%;}
+}
+.navbar .form-inline{
+	background: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+	border-radius: 10px
+}
+.bg-2mau{
+	background: url("../img/Group 63 (1).png") repeat-y;
+	background-position: center top	
+}
+.bg-2mau1{
+	background: url("../img/bg-section2.jpg") repeat-y;
+	background-position: center top	
+}
+.bgg{
+	background: url("../img/Rectangle 18.png") no-repeat;
+	background-position: bottom
+}
+.bgg1{
+	background-color: #fff;
+	background-repeat: repeat-x
+}
+.bgg2{
+	background: url("../img/tm_bg 1.png") repeat-y;	
+}
+.bgg3{
+	background: url("../img/tm_bg 2.png");
+	background-position: bottom;
+	overflow: hidden
+}
+.top{
+	position: absolute;
+	top: 50%;
+	left: 17%
+}
+.bgg3{
+	background: url("../img/Rectangle 21.png")repeat-y;
+	background-position: left
+	
+}
+.navbar .form-control{
+	border: none;
+	background: transparent
+}
+.navbar .badge { 
+	position:absolute; 
+	padding:5px 7px; 
+	border-radius: 50%; 
+	font-size: 0.9rem}
